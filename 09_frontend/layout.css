@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    border: 5px solid pink;
+    justify-content: center; /* 横方向で中央寄せ */
+    align-items: center; /* 縦方向で中央寄せ */
+    height: 200px; /* 親要素の高さを指定 */
+    column-gap: 10px; /* 横方向の間隔 */
+  }
+  
+  .item {
+    background-color: skyblue;
+    padding: 20px;
+    flex: 1; /* 子要素が均等にスペースを分け合う */
+  }
+
+  /* 固定メニュー */
+ul {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  ul li {
+    display: inline-block;
+    width: 100px;
+    background-color: #dddddd;
+    text-align: center;
+    padding: 5px;
+  }
